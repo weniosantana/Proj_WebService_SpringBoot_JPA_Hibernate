@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://roundhouse.proxy.rlwy.net:46256/railway
+    username: postgres
+    password: DD4a-33gf5BBd11eAFFbdBac4eGfdGFE
+
+  sql:
+    init:
+      mode: always

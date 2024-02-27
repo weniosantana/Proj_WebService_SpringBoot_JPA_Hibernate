@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 
 
-@SpringBootApplication(exclude={DataSourceAutoConfiguration.class}, scanBasePackages = "com.webservices.course.repositories.CategoryRepository")
+@SpringBootApplication
 
 public class CourseApplication {
 
