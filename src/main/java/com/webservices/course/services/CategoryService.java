@@ -13,7 +13,7 @@ import com.webservices.course.repositories.CategoryRepository;
 @Service
 public class CategoryService {
 
-	@Autowired
+	@Autowired(required = true)
 	private CategoryRepository repository;
 	
 	public List<Category> findAll(){
