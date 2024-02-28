@@ -10,9 +10,9 @@ management:
 
 info:
   application:
-    name: spring-blog
-    description: A blog with articles about The Spring Framework.
-    author: Dan Vega
+    name: WebService_SpringBoot
+    description: Aplicação.
+    author: Wenio Santana
     version: '@project.version@'
 spring:
   profiles:
